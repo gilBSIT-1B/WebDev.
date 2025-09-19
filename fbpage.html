@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <style>
+        body{
+            background-color: #18191a;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .cover-photo{
+            width: 100%;
+            height: 200px;
+            background-color: #24252699;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .profile-info{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #18191a;
+        }
+        .profile-pic{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #3a3b3c;
+            background-color: gray;
+            margin-top: -60px;
+            margin-right: 15px;
+        }
+        .name-box{
+            display: flex;
+            flex-direction: column;
+        }
+        .name{
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .nickname{
+            font-size: 16px;
+            color: #b0b3b8;
+        }
+        .friends{
+            font-size: 14px;
+            color: #b0b3b8;
+        }
+        .buttons{
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+        }
+        .btn{
+            background-color: #2374e1;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn.edit{
+            background-color: #3a3b3c;
+        }
+        .nav{
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            background-color: #242526;
+            font-size: 14px;
+        }
+        .nav a{
+            color: #b0b3b8;
+            text-decoration: none;
+        }
+        .nav a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-photo">
+        Add cover photo
+    </div>
+    <div class="profile-info">
+        <div class="profile-pic"></div>
+        <div class="name-box">
+            <div class="name">Gilcris Mohametano</div>
+            <div class="nickname">(BigBoy)</div>
+            <div class="friends">287 friends</div>
+        </div>
+        <div class="buttons">
+            <button class="btn">+ Add to story</button>
+            <button class="btn edit">Edit profile</button>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#">Posts</a>
+        <a href="#">About</a>
+        <a href="#">Friends</a>
+        <a href="#">Photos</a>
+        <a href="#">Videos</a>
+        <a href="#">Reels</a>
+        <a href="#">More</a>
+    </div>
+</body>
+</html>
